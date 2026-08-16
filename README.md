@@ -83,7 +83,7 @@ copy .env.example .env
 Update `backend/.env` with your local values:
 
 ```env
-DATABASE_URL="postgresql+asyncpg://postgres:postgres@localhost:5432/ai_hcp_crm"
+DATABASE_URL="your database URL"
 GROQ_API_KEY="your-groq-api-key"
 DEFAULT_MODEL="llama-3.3-70b-versatile"
 ```
